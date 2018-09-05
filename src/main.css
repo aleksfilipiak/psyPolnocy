@@ -1,8 +1,48 @@
-/*.carousel-item {*/
-    /*height: 500px;*/
-/*}*/
+html {
+    scroll-behavior: smooth;
+}
 
-/*img {*/
-    /*height: auto;*/
-    /*max-width: 100%;*/
+.navbar {
+    background: rgba(0, 0, 0, 0.3) !important;
+    position: fixed;
+    top:0;
+    width: 100% !important;
+    z-index: 1;
+    }
+
+.navbar .navbar-nav li a{
+    color: white !important;
+}
+
+div#header-carousel.carousel.slide {
+    padding-top: 113px !important;
+
+}
+
+h4 {
+    padding-top: 113px !important;
+}
+
+button.navbar-toggler{
+    border-color: rgb(255,102,203) !important;
+}
+
+span.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+
+    /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1, 1, 1, 0.5)") !important;*/
+}
+
+/*.parallax {*/
+    /*!* The image used *!*/
+    /*background-image: url('../image/blue-blur-close-up-433108.jpg');*/
+
+    /*!* Full height *!*/
+    /*height: 100%;*/
+
+    /*!* Create the parallax scrolling effect *!*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
 /*}*/

@@ -1,5 +1,6 @@
 import React from "react";
-import "../main.css"
+
+
 
 export default class Slider extends React.Component{
 
@@ -66,9 +67,7 @@ const sliderHeight = {
 }
 
 
-// document.addEventListener("DOMContentLoaded", function () {
-//     document.getElementsByClassName("carousel")[0].carousel({
-//         interval: 2000
-//     })
-//
-// });
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("dokument dziala");
+
+});
