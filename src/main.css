@@ -1,5 +1,22 @@
 html {
     scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: black !important;
+}
+
+h4{
+    text-align: center;
+    padding-top: 113px;
+    color: white !important;
+}
+
+p{
+    text-align: center;
+    color: white !important;
 }
 
 .navbar {
@@ -19,9 +36,6 @@ div#header-carousel.carousel.slide {
 
 }
 
-h4 {
-    padding-top: 113px !important;
-}
 
 button.navbar-toggler{
     border-color: rgb(255,102,203) !important;
@@ -32,17 +46,23 @@ span.navbar-toggler-icon{
 
     /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1, 1, 1, 0.5)") !important;*/
 }
+.content{
+    height: 300px;
+}
 
-/*.parallax {*/
-    /*!* The image used *!*/
-    /*background-image: url('../image/blue-blur-close-up-433108.jpg');*/
+.spyScroll {
+    height: 1000px !important;
+}
+.parallax {
+    /* The image used */
+    background-image: url('../image/blue-blur-close-up-433108.jpg') !important;
 
-    /*!* Full height *!*/
-    /*height: 100%;*/
+    /* Full height */
+    height: 25%;
 
     /*!* Create the parallax scrolling effect *!*/
-    /*background-attachment: fixed;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-/*}*/
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
