@@ -100,23 +100,20 @@ button.navbar-toggler.custom-toggler {
 }
 
 .dogs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-max-width: 1200px;
+    max-width: 1200px;
     margin: auto;
     padding: 40px 30px 113px 30px;
 }
 
 .dog-item {
-    width: 100%;
+    width: 300px;
     height: 300px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -128,13 +125,16 @@ max-width: 1200px;
     transition: .5s ease;
 }
 
-.dog-item:hover .overlay{
+.dog-item:hover .overlay {
     height: 100%;
 }
 
 .dogs a {
     width: 300px;
-    margin: 10px 10px;
+}
+
+.dogs-name{
+    border: 2px solid grey;
 }
 
 @media screen and (max-width: 768px) {
@@ -145,4 +145,7 @@ max-width: 1200px;
     .parallax {
         height: 15%;
     }
+
+
 }
+
